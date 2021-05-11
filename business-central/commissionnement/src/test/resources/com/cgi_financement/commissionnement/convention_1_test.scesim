@@ -1,0 +1,866 @@
+<ScenarioSimulationModel version="1.8">
+  <simulation>
+    <scesimModelDescriptor>
+      <factMappings>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>Index</name>
+            <type>OTHER</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>#</name>
+            <className>java.lang.Integer</className>
+          </factIdentifier>
+          <className>java.lang.Integer</className>
+          <factAlias>#</factAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>70.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>Description</name>
+            <type>OTHER</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Scenario description</name>
+            <className>java.lang.String</className>
+          </factIdentifier>
+          <className>java.lang.String</className>
+          <factAlias>Scenario description</factAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>300.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>production</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1620634535201</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>production</name>
+            <className>.production</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>production</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>duree initiale financement</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1620637552443</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>duree initiale financement</name>
+            <className>.duree initiale financement</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>duree initiale financement</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>161.4377285701877</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>dossier annule resilie ou impaye</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|2</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>dossier annule resilie ou impaye</name>
+            <className>dossier annule resilie ou impaye</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>dossier annule resilie ou impaye</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>380.34841210175244</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>prestations</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|3</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>prestations</name>
+            <className>prestations</className>
+          </factIdentifier>
+          <className>java.util.List</className>
+          <factAlias>prestations</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes>
+            <string>tPrestations</string>
+          </genericTypes>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>taux interet dossier</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|4</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>taux interet dossier</name>
+            <className>taux interet dossier</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>taux interet dossier</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>taux interet marche</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|5</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>taux interet marche</name>
+            <className>taux interet marche</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>taux interet marche</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>type apporteur</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|6</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>type apporteur</name>
+            <className>type apporteur</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>type apporteur</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>type vehicule</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|7</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>type vehicule</name>
+            <className>type vehicule</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>type vehicule</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>type financement</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1620297390229</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>type financement</name>
+            <className>.type financement</className>
+          </factIdentifier>
+          <className>tFinancement</className>
+          <factAlias>type financement</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>exclusion</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|8</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>exclusion</name>
+            <className>exclusion</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>exclusion</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>presence prestation</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1|9</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>presence prestation</name>
+            <className>presence prestation</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>presence prestation</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes/>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>taux commission</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1620634573291</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>taux commission</name>
+            <className>.taux commission</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>taux commission</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709636</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>commission</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1620634594602</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>commission</name>
+            <className>.commission</className>
+          </factIdentifier>
+          <className>number</className>
+          <factAlias>commission</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>149.01944175709633</columnWidth>
+        </FactMapping>
+      </factMappings>
+    </scesimModelDescriptor>
+    <scesimData>
+      <Scenario>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Scenario description</name>
+              <className>java.lang.String</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Description</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">exclue true </rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>dossier annule resilie ou impaye</name>
+              <className>dossier annule resilie ou impaye</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>prestations</name>
+              <className>prestations</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;value&quot;:&quot;\&quot;GVA\&quot;&quot;},{&quot;value&quot;:&quot;\&quot;APP\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux interet dossier</name>
+              <className>taux interet dossier</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">25</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux interet marche</name>
+              <className>taux interet marche</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|5</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">18</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type apporteur</name>
+              <className>type apporteur</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|6</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;VD&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type vehicule</name>
+              <className>type vehicule</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;VO&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>exclusion</name>
+              <className>exclusion</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>presence prestation</name>
+              <className>presence prestation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|9</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type financement</name>
+              <className>.type financement</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620297390229</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;CREDIT_CLASSIQUE&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>production</name>
+              <className>.production</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634535201</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">1000</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux commission</name>
+              <className>.taux commission</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634573291</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">0</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>commission</name>
+              <className>.commission</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634594602</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">0</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>duree initiale financement</name>
+              <className>.duree initiale financement</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620637552443</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">15</rawValue>
+          </FactMappingValue>
+        </factMappingValues>
+      </Scenario>
+      <Scenario>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Scenario description</name>
+              <className>java.lang.String</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Description</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">exclue false avec 1 prestation et duree &lt; 25</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>dossier annule resilie ou impaye</name>
+              <className>dossier annule resilie ou impaye</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>prestations</name>
+              <className>prestations</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;value&quot;:&quot;\&quot;GVA\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux interet dossier</name>
+              <className>taux interet dossier</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">25</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux interet marche</name>
+              <className>taux interet marche</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|5</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">18</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type apporteur</name>
+              <className>type apporteur</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|6</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;VD&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type vehicule</name>
+              <className>type vehicule</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;VO&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>exclusion</name>
+              <className>exclusion</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>presence prestation</name>
+              <className>presence prestation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|9</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">2</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type financement</name>
+              <className>.type financement</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620297390229</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;CREDIT_CLASSIQUE&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>production</name>
+              <className>.production</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634535201</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">1000</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux commission</name>
+              <className>.taux commission</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634573291</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">5.25</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>commission</name>
+              <className>.commission</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634594602</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">26.25</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>duree initiale financement</name>
+              <className>.duree initiale financement</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620637552443</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">15</rawValue>
+          </FactMappingValue>
+        </factMappingValues>
+      </Scenario>
+      <Scenario>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Scenario description</name>
+              <className>java.lang.String</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Description</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">exclue false sans prestation</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>dossier annule resilie ou impaye</name>
+              <className>dossier annule resilie ou impaye</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|2</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>prestations</name>
+              <className>prestations</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux interet dossier</name>
+              <className>taux interet dossier</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|4</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">25</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux interet marche</name>
+              <className>taux interet marche</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|5</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">18</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type apporteur</name>
+              <className>type apporteur</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|6</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;VD&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type vehicule</name>
+              <className>type vehicule</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|7</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;VO&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>exclusion</name>
+              <className>exclusion</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|8</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>presence prestation</name>
+              <className>presence prestation</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|9</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>#</name>
+              <className>java.lang.Integer</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>Index</name>
+              <type>OTHER</type>
+            </expressionIdentifier>
+            <rawValue class="string">3</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>type financement</name>
+              <className>.type financement</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620297390229</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;CREDIT_CLASSIQUE&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>production</name>
+              <className>.production</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634535201</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">1000</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>taux commission</name>
+              <className>.taux commission</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634573291</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">5</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>commission</name>
+              <className>.commission</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620634594602</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">50</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>duree initiale financement</name>
+              <className>.duree initiale financement</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1620637552443</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">26</rawValue>
+          </FactMappingValue>
+        </factMappingValues>
+      </Scenario>
+    </scesimData>
+  </simulation>
+  <background>
+    <scesimModelDescriptor>
+      <factMappings>
+        <FactMapping>
+          <expressionElements/>
+          <expressionIdentifier>
+            <name>1|1</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Empty</name>
+            <className>java.lang.Void</className>
+          </factIdentifier>
+          <className>java.lang.Void</className>
+          <factAlias>INSTANCE 1</factAlias>
+          <expressionAlias>PROPERTY 1</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+      </factMappings>
+    </scesimModelDescriptor>
+    <scesimData>
+      <BackgroundData>
+        <factMappingValues>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Empty</name>
+              <className>java.lang.Void</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|1</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
+        </factMappingValues>
+      </BackgroundData>
+    </scesimData>
+  </background>
+  <settings>
+    <dmnFilePath>src/main/resources/com/cgi_financement/commissionnement/convention_1.dmn</dmnFilePath>
+    <type>DMN</type>
+    <dmnNamespace>https://kiegroup.org/dmn/_7E972D37-8F93-492C-B297-BAECE5AC7838</dmnNamespace>
+    <dmnName>convention_1</dmnName>
+    <skipFromBuild>false</skipFromBuild>
+    <stateless>false</stateless>
+  </settings>
+  <imports>
+    <imports/>
+  </imports>
+</ScenarioSimulationModel>
