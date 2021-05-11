@@ -1,7 +1,7 @@
 # commission_dmn
 
 Web UI editor : https://kiegroup.github.io/kogito-online-staging/dmn-runner/#/editor/dmn
-
+Bug cannot add values to a list from the generated runtime form tester : https://issues.redhat.com/browse/KOGITO-5111
 
 Install rhpam operator from OperatorHub and create a Business Central instance from Openshift Operator Console :
 ```yaml
