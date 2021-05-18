@@ -1,0 +1,7 @@
+"#",Scenario description,GIVEN,GIVEN,GIVEN,GIVEN,GIVEN,GIVEN,GIVEN,GIVEN,GIVEN,EXPECT,EXPECT,EXPECT
+"#",Scenario description,dossier annule resilie ou impaye,duree initiale financement,prestations,production,taux interet dossier,taux interet marche,type apporteur,type financement,type vehicule,commission,exclusion,taux commission
+"#",Scenario description,value,value,value,value,value,value,value,value,value,value,value,value
+1,dossier impaye,true,26,"[{""value"":""\""GVA\""""}]",1000,18,15,"""LOUEUR""","""CREDIT_CLASSIQUE""","""PRO""",0,true,0
+2,CREDIT_CLASSIQUE 5%,false,26,[],1000,19,15,"""LOUEUR""","""CREDIT_CLASSIQUE""","""PRO""",50.00,false,5
+3,CREDIT_CLASSIQUE 5.25%,false,26,"[{""value"":""\""GVA\""""}]",1000,19,15,"""LOUEUR""","""CREDIT_CLASSIQUE""","""PRO""",52.50,false,5.25
+4,CREDIT_CLASSIQUE 5.75%,false,26,"[{""value"":""\""GVA\""""},{""value"":""\""APP\""""}]",1000,19,15,"""LOUEUR""","""CREDIT_CLASSIQUE""","""PRO""",57.50,false,5.75
